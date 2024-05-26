@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="homework.js" defer></script>
+        <title>Document</title>
+        <style>
+            .review-container {
+                border: 1px solid #ddd;
+                padding: 15px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Оставить отзыв</h2>
+
+        <textarea
+            id="reviewInput"
+            cols="30"
+            rows="5"
+            placeholder="Введите ваш отзыв..."
+        ></textarea>
+        <br />
+        <button id="submitReview">Отправить отзыв</button>
+
+        <h2>Отзывы:</h2>
+        <div id="reviewsContainer"></div>
+    </body>
+</html>
