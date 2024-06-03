@@ -1,0 +1,50 @@
+@import "vars"
+
+.some-area
+    display: flex
+    flex-direction: column
+    gap: 2rem
+
+.nav
+    width: 12rem
+    color: $colorNav
+    font-size: 1rem
+    padding: 1rem
+    transition: all .3s
+    &:hover
+        color: $colorHover
+
+.review-form
+    padding: 1rem
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    &__input
+        border: .1rem solid $colorText
+        border-radius: .5rem
+        outline-color: $colorNav
+        padding: .5rem
+        width: 50%
+        height: 2rem
+    &__textarea
+        border: .1rem solid $colorText
+        border-radius: .5rem
+        outline-color: $colorNav
+        padding: .5rem
+        width: 50%
+        height: 12rem
+    &__button
+        border: .2rem solid #fff
+        border-radius: .5rem
+        width: 50%
+        height: 3rem
+        font-size: 1.2rem
+        letter-spacing: .3rem
+        background-color: #fff
+        transition: all .3s
+        &:hover
+            border-color: $colorNav
+            color: $colorNav
+            box-shadow: 4px 4px 16px rgba(0, 0, 0, .3)
+        &:active
+            transform: scale(.9)
