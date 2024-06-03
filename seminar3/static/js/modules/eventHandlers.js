@@ -52,7 +52,6 @@ const reviewsRenderHandler = (productsBoxEl, reviewsBoxEl) => {
                 title.textContent = `Нет ни одного отзыва к товару "${product}" `;
             }
 
-
             let index = 0;
 
             productReviews.forEach((review) => {
